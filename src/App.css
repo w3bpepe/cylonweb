@@ -61,10 +61,11 @@ body{
   margin: 0 auto;
 }
 
-.navStyle{
-  background-color: #1B2021;
-
+.navContainer{
+  background-image: url("./images/triangle.svg");
 }
+
+
 
 .logo{
   text-align: center;

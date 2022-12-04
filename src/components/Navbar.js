@@ -11,7 +11,6 @@ function NavbarCylon() {
   return (
 
         <>
-          <MDBNavbar  className='navStyle'>
             <MDBContainer className='navContainer'>
                 <img
                   src={logo}
@@ -21,7 +20,7 @@ function NavbarCylon() {
                   className='logo'
                 />
             </MDBContainer>
-          </MDBNavbar>
+
 
         </>
   );
