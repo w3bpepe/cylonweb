@@ -1,26 +1,29 @@
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import logo from "../images/logo.png"
+import React from 'react';
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand
+} from 'mdb-react-ui-kit';
 
 function NavbarCylon() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="none" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">Cylon Cartel</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">About Us</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Roadmap
-            </Nav.Link>
-            <Nav.Link href="#deets">Team</Nav.Link>
-            <Nav.Link href="#deets">FAQ</Nav.Link>
 
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <>
+          <MDBNavbar  className='navStyle'>
+            <MDBContainer className='navContainer'>
+                <img
+                  src={logo}
+                  height='100'
+                  alt=''
+                  loading='lazy'
+                  className='logo'
+                />
+            </MDBContainer>
+          </MDBNavbar>
+
+        </>
   );
 }
 
