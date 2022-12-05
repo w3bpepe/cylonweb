@@ -1,5 +1,12 @@
 body{
   background-color: #1B2021 !important;
+  background-image: url("./images/invasion.png");
+  top: 10%;
+  background-position: 0%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landingHero{
@@ -7,12 +14,7 @@ body{
   padding-bottom: 20%;
   max-height: 1000px;
   width: 100%;
-  top: 10%;
-  background-position: 0%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .imgCarosello{
@@ -61,13 +63,31 @@ body{
   margin: 0 auto;
 }
 
-.navContainer{
-  background-image: url("./images/triangle.svg");
+
+.logo{
+  text-align: center;
+  margin: 0 auto;
 }
 
 
+.cylonNav::before{
+  background-image: url("./images/tilt.svg");
+  color: #D2C2C3 !important;
+  height: 100px;
+}
 
-.logo{
+.cylonNav::before{
+  rotate: scaleX(-1);
+}
+
+
+.navElement{
+  color: #D2C2C3 !important;
+  font-family: "allien";
+  font-size: 3vh !important;
+}
+
+.logoIMG{
   text-align: center;
   margin: 0 auto;
 }

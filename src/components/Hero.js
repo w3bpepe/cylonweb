@@ -16,7 +16,6 @@ export default function HeroImage() {
     <header style={{ paddingLeft: 0 }}>
       <div
         className=' landingHero'
-        style={{ backgroundImage: `url(${invasionBG})` }}
       >
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='heroContainer'>
