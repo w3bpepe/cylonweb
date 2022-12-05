@@ -10,8 +10,7 @@ body{
 }
 
 .landingHero{
-  padding:10%;
-  padding-bottom: 20%;
+  height: auto;
   max-height: 1000px;
   width: 100%;
 
@@ -47,7 +46,6 @@ body{
   font-family: "allien";
   text-align: center;
   font-size: 15vh;
-  margin-top: 5vh;
   color: #D2C2C3;
 }
 
@@ -63,21 +61,22 @@ body{
   margin: 0 auto;
 }
 
-
-.logo{
-  text-align: center;
-  margin: 0 auto;
-}
-
-
-.cylonNav::before{
-  background-image: url("./images/tilt.svg");
+.cylonNav{
+  content: '';
+  background-image: url("./images/triangle.svg");
   color: #D2C2C3 !important;
   height: 100px;
+  z-index: 1;
+  box-shadow: none !important;
+  padding: none !important;
 }
 
-.cylonNav::before{
-  rotate: scaleX(-1);
+.navContent{
+  color: #D2C2C3 !important;
+  position:relative;
+  z-index: 100;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -85,9 +84,42 @@ body{
   color: #D2C2C3 !important;
   font-family: "allien";
   font-size: 3vh !important;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .logoIMG{
   text-align: center;
   margin: 0 auto;
+}
+
+.logoContainer{
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1B2021;
+}
+
+.contentBG{
+  background-color: #1B2021;
+}
+
+.custom-shape-divider-bottom-1670263175 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670263175 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 72px;
+}
+
+.custom-shape-divider-bottom-1670263175 .shape-fill {
+  fill: #1B2021;
 }

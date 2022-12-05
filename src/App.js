@@ -12,12 +12,14 @@ function App() {
     <div className="App">
       <NavbarCylon />
       <HeroImage />
-      <Carosello />
-      <About />
-      <Team />
-      <CylonFAQ />
+      <div className='contentBG'>
+        <Carosello />
+        <About />
+        <Team />
+        <CylonFAQ />    
+      </div>
       <Footer />
-    </div>
+      </div>
   );
 }
 
