@@ -1,52 +1,57 @@
 import React from 'react';
-import invasionBG from '../images/invasion.png'
-import {
-  MDBCard,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCardBody,
-  MDBCardImage,
-  MDBRow,
-  MDBCol
-} from 'mdb-react-ui-kit';
+import Card from 'react-bootstrap/Card';
 import landingCylon from "../images/7.jpg"
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+  MDBIcon,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
 export default function HeroImage() {
   return (
-    <header style={{ paddingLeft: 0 }}>
-      <div
-        className=' landingHero'
-      >
-          <div className='d-flex justify-content-center align-items-center h-100'>
-            <div className='heroContainer'>
-            <MDBCard style={{ maxWidth: '800px' }}>
-      <MDBRow className='g-0'>
+    <div className='d-flex justify-content-center align-items-center landingHero'>
+    <Card style={{ width: '30rem' }} className="cartaHero">
+      <Card.Body>
+        <h1 className='heroTitle'>Join The Invasion</h1>
+        <Card.Subtitle className="mb-2 text-muted heroSottotitolo">The cartel is waiting for you</Card.Subtitle>
+        <section className='mb-4 justify-content-center text-center'>
 
-        <MDBCol md='8'>
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
-            </MDBCardText>
-            <MDBCardText>
-              <small className='text-muted'>Last updated 3 mins ago</small>
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCol>
-        <MDBCol md='4'>
-          <MDBCardImage src={landingCylon} alt='...' fluid />
-        </MDBCol>
-      </MDBRow>
-    </MDBCard>
-            </div>
-          </div>
-      </div>
-      <div class="custom-shape-divider-bottom-1670263175">
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1 socialIcon'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-twitter socialIcon' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-discord socialIcon' />
+          </MDBBtn>
+
+        </section>
+
+      </Card.Body>
+    </Card>
+    <div class="custom-shape-divider-bottom-1670264227">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
     </svg>
-</div>
-    </header>
+    </div>
+    </div>
   );
 }

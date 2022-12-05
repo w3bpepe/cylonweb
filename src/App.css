@@ -10,7 +10,7 @@ body{
 }
 
 .landingHero{
-  height: auto;
+  height: 77vh;
   max-height: 1000px;
   width: 100%;
 
@@ -33,13 +33,23 @@ body{
   src: local("allien"), url(alliens.otf) format("opentype");
 }
 
-.heroContainer{
+.cartaHero{
+  background-color: rgba(210, 194, 195, 0.9) !important;
 }
 
 .heroTitle{
-  font-family: "Montserrat";
-  font-size: 8vw;
-  color: red;
+  font-family: "allien";
+  text-align: center;
+  font-size: 5rem;
+  color: #1B2021;
+}
+
+.heroSottotitolo{
+  text-align: center;
+}
+
+.socialIcon{
+  font-size: 1.5rem;
 }
 
 .caroselloTitle {
@@ -103,7 +113,7 @@ body{
   background-color: #1B2021;
 }
 
-.custom-shape-divider-bottom-1670263175 {
+.custom-shape-divider-bottom-1670264227 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -113,13 +123,13 @@ body{
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1670263175 svg {
+.custom-shape-divider-bottom-1670264227 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 72px;
+  height: 124px;
 }
 
-.custom-shape-divider-bottom-1670263175 .shape-fill {
+.custom-shape-divider-bottom-1670264227 .shape-fill {
   fill: #1B2021;
 }
