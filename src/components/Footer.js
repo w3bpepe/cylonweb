@@ -10,10 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
-      <MDBContainer className='pt-4'>
-        <section className='mb-4'>
-
+    <MDBFooter className='text-center footerStyle' style={{ backgroundColor: '#D2C2C3' }}>
           <MDBBtn
             rippleColor="dark"
             color='link'
@@ -37,16 +34,7 @@ export default function Footer() {
           >
             <MDBIcon fab className='fa-discord' />
           </MDBBtn>
-
-        </section>
-      </MDBContainer>
-
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
+          <div className='copyrightBottom'>© 202 2  Copyright CylonCartel.com</div>
     </MDBFooter>
   );
 }

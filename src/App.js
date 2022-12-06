@@ -5,7 +5,7 @@ import Carosello from './components/Carosello';
 import About from './components/Aboutus';
 import Footer from './components/Footer';
 import Team from './components/Team';
-import CylonFAQ from './components/Faq';
+import FaqTwo from './components/FaqTwo';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Carosello />
         <About />
         <Team />
-        <CylonFAQ />    
+        <FaqTwo />  
       </div>
       <Footer />
       </div>

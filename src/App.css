@@ -35,6 +35,7 @@ body{
 
 .cartaHero{
   background-color: rgba(210, 194, 195, 0.9) !important;
+  margin-bottom: 5rem;
 }
 
 .heroTitle{
@@ -46,6 +47,7 @@ body{
 
 .heroSottotitolo{
   text-align: center;
+  font-size: 1.35rem !important;
 }
 
 .socialIcon{
@@ -55,14 +57,15 @@ body{
 .caroselloTitle {
   font-family: "allien";
   text-align: center;
-  font-size: 15vh;
+  font-size: 8rem;
   color: #D2C2C3;
 }
 
 .aboutTitle{
   font-family: "allien";
-  font-size: 8vh;
+  font-size: 5rem;
   color: #D2C2C3;
+  margin: 2rem;
 }
 
 .lowerSection{
@@ -93,7 +96,7 @@ body{
 .navElement{
   color: #D2C2C3 !important;
   font-family: "allien";
-  font-size: 3vh !important;
+  font-size: 2rem !important;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -111,6 +114,69 @@ body{
 
 .contentBG{
   background-color: #1B2021;
+}
+
+.aboutSection{
+  font-size: 1.35rem;
+  color: #D2C2C3;
+}
+
+.teamTitle{
+  color:#1B2021 !important;
+  font-family: "allien";
+  font-size: 2rem !important;
+
+}
+
+.teamCard{
+  background-color: rgba(210, 194, 195, 1) !important;
+  color: #1B2021 !important;
+}
+
+.faq{
+  border-radius: 10px !important;
+  padding: 4rem;
+}
+
+.faqTitle{
+  font-family: "allien";
+  font-size: 3rem;
+  color: #D2C2C3;
+}
+
+.faq-style-wrapper {
+  color: #D2C2C3 !important;
+}
+
+.faq-style-wrapper .faq-body .faq-row {
+  padding: 0.75em 0;
+
+}
+
+.faq-style-wrapper .faq-body{
+  background-color: #1B2021;
+  color: #D2C2C3 !important; 
+}
+
+.faq-style-wrapper .faq-body .faq-row .row-title {
+  font-size: larger;
+  color: #D2C2C3 !important;
+}
+
+.faq-style-wrapper .faq-body .faq-row .row-content-text {
+  padding: 2em !important;
+  font-size: medium !important;
+  color: #D2C2C3 !important;
+}
+
+.faq-style-wrapper .faq-title {
+  color: #D2C2C3 !important;
+  background-color: #1B2021;
+  font-family: "allien";
+}
+
+.copyrightBottom{
+  padding-bottom: 1rem;
 }
 
 .custom-shape-divider-bottom-1670264227 {
