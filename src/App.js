@@ -6,12 +6,14 @@ import About from './components/Aboutus';
 import Footer from './components/Footer';
 import Team from './components/Team';
 import FaqTwo from './components/FaqTwo';
+import Divider from './components/Divider';
 
 function App() {
   return (
     <div className="App">
       <NavbarCylon />
       <HeroImage />
+      <Divider />
       <div className='contentBG'>
         <Carosello />
         <About />

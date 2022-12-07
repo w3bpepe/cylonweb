@@ -27,6 +27,7 @@ const responsive = {
   export default function Carosello() {
     return(
         <>
+
         <h1 className='caroselloTitle' id='CYLONSECTION'>Cylons</h1>
         <Carousel
         swipeable={false}
