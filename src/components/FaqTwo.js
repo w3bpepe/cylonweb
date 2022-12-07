@@ -40,7 +40,7 @@ export default function FaqTwo() {
 
     return (
         <div className="lowerSection faq">
-            <h2 className="faqTitle">FAQ</h2>
+            <h2 className="faqTitle" id="FAQSECTION">FAQ</h2>
             <div className="faq-style-wrapper">
                 <Faq 
                 data={data} 

@@ -21,10 +21,10 @@ export default function NavbarCylon() {
       </div>
       <div expand='lg' className='cylonNav'>
             <div className='justify-content-center navContent'>
-                <span href='#' className='navElement'>Cylons</span>
-                <span href='#' className='navElement'>About</span>
-                <span href='#' className='navElement'>Team</span>
-                <span href='#' className='navElement'>FAQ</span>
+                <a href='#CYLONSECTION' className='navElement'>Cylons</a>
+                <a href='#ABOUTSECTION' className='navElement'>About</a>
+                <a href='#TEAMSECTION' className='navElement'>Team</a>
+                <a href='#FAQSECTION' className='navElement'>FAQ</a>
             </div>
       </div>
     </>
