@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/cylonweb/static/css/main.1814f7d4.css",
-    "main.js": "/cylonweb/static/js/main.2e1124bb.js",
+    "main.css": "/cylonweb/static/css/main.b4d85398.css",
+    "main.js": "/cylonweb/static/js/main.7450e56b.js",
     "static/js/787.88d04926.chunk.js": "/cylonweb/static/js/787.88d04926.chunk.js",
-    "static/media/invasion.png": "/cylonweb/static/media/invasion.56930c1a80fcece104ac.png",
     "static/media/1.png": "/cylonweb/static/media/1.08ddf84b52f4c4ad0729.png",
     "static/media/50k.png": "/cylonweb/static/media/50k.7c0e743f85d13683e837.png",
     "static/media/okayjay.png": "/cylonweb/static/media/okayjay.351e632ffc10658948bf.png",
     "static/media/team4.png": "/cylonweb/static/media/team4.70e515670152a7c77b08.png",
     "static/media/team2.png": "/cylonweb/static/media/team2.fc0bb5f453e80fbb75ae.png",
     "static/media/2.png": "/cylonweb/static/media/2.1405445c7aabd87e1afd.png",
-    "static/media/logo.png": "/cylonweb/static/media/logo.90b290a75a1fdbdb83ff.png",
+    "static/media/invasion.png": "/cylonweb/static/media/invasion.ae681472f1e472e25b5a.png",
     "static/media/3.jpeg": "/cylonweb/static/media/3.934a102de9d8e1ce0f25.jpeg",
     "static/media/fa-solid-900.ttf": "/cylonweb/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/5.jpg": "/cylonweb/static/media/5.9d6b6612c2b5eafed2df.jpg",
@@ -20,6 +19,7 @@
     "static/media/fa-solid-900.woff2": "/cylonweb/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
     "static/media/fa-brands-400.woff2": "/cylonweb/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
     "static/media/fa-regular-400.ttf": "/cylonweb/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/logo.png": "/cylonweb/static/media/logo.7d8a2024fdbdb73e26bc.png",
     "static/media/fa-regular-400.woff2": "/cylonweb/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
     "static/media/alliens.otf": "/cylonweb/static/media/alliens.81e01e47c125ae893eaf.otf",
     "static/media/revicons.eot": "/cylonweb/static/media/revicons.a77de540a38981833f9e.eot",
@@ -29,12 +29,12 @@
     "static/media/fa-v4compatibility.woff2": "/cylonweb/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/cylonweb/index.html",
     "static/media/triangle.svg": "/cylonweb/static/media/triangle.bf85e0db4b967d300180.svg",
-    "main.1814f7d4.css.map": "/cylonweb/static/css/main.1814f7d4.css.map",
-    "main.2e1124bb.js.map": "/cylonweb/static/js/main.2e1124bb.js.map",
+    "main.b4d85398.css.map": "/cylonweb/static/css/main.b4d85398.css.map",
+    "main.7450e56b.js.map": "/cylonweb/static/js/main.7450e56b.js.map",
     "787.88d04926.chunk.js.map": "/cylonweb/static/js/787.88d04926.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1814f7d4.css",
-    "static/js/main.2e1124bb.js"
+    "static/css/main.b4d85398.css",
+    "static/js/main.7450e56b.js"
   ]
 }
