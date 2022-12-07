@@ -11,7 +11,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import team1 from "../images/50k.png"
-import team2 from "../images/team2.png"
+import team2 from "../images/klein.jpeg"
 import team3 from "../images/okayjay.png"
 import team4 from "../images/team4.png"
 
@@ -57,7 +57,7 @@ export default function Team() {
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle className='teamTitle'>17Dreams</MDBCardTitle>
+            <MDBCardTitle className='teamTitle'>Klein</MDBCardTitle>
             <MDBCardText>
             My name is Brandon Klein, 21 from the UK!
             I have been involved in crypto and NFTs 2 years now and I have decided to put matters into my own hands and create something with my colleagues that provides value to everybody involved and not just the owners.
