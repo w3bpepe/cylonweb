@@ -13,7 +13,7 @@ body{
 }
 
 .landingHero{
-  height: 100vh;
+  height: 90vh;
   max-height: 1000px;
   width: 100%;
 }
@@ -81,6 +81,7 @@ body{
   background-image: url("./images/triangle.svg");
   color: #D2C2C3 !important;
   height: 100px;
+  max-width: 100%;
   z-index: 1;
   box-shadow: none !important;
   padding: none !important;
