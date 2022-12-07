@@ -2,6 +2,7 @@ body{
   background-color: #1B2021 !important;
   background-image: url("./images/invasion.png");
   top: 10%;
+  max-width: 100%;
   background-position: 0%;
   background-attachment: fixed;
   background-position: center;
@@ -81,6 +82,7 @@ body{
   background-image: url("./images/triangle.svg");
   color: #D2C2C3 !important;
   height: 100px;
+  width: 100%;
   max-width: 100%;
   z-index: 1;
   box-shadow: none !important;
