@@ -60,7 +60,7 @@ body{
 .caroselloTitle {
   font-family: "allien";
   text-align: center;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #D2C2C3;
 }
 
@@ -86,7 +86,17 @@ body{
   max-width: 100%;
   z-index: 1;
   box-shadow: none !important;
-  padding: none !important;
+  padding: 0 !important;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.iconNavbar{
+  color: #D2C2C3;
+}
+
+.solidBG{
+  background-color: #1B2021;
 }
 
 .navContent{

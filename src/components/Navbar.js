@@ -1,32 +1,47 @@
 import React, { useState } from 'react';
 import {
-  MDBNavbar,
   MDBContainer,
-  MDBIcon,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBNavbarToggler,
-  MDBNavbarBrand,
+  MDBIcon,
   MDBCollapse
 } from 'mdb-react-ui-kit';
 import logo from "../images/logo.png"
 
 export default function NavbarCylon() {
+  const [showNavSecond, setShowNavSecond] = useState(false);
+
+  let toggleNavBG = showNavSecond ? ' solidBG' : null;
 
   return (
     <>
       <div className='logoContainer'>
         <img src={logo} height="80px" className='logoIMG'></img>
       </div>
-      <div expand='lg' className='cylonNav'>
-            <div className='justify-content-center navContent'>
-                <a href='#CYLONSECTION' className='navElement'>Cylons</a>
-                <a href='#ABOUTSECTION' className='navElement'>About</a>
-                <a href='#TEAMSECTION' className='navElement'>Team</a>
-                <a href='#FAQSECTION' className='navElement'>FAQ</a>
-            </div>
-      </div>
+      <MDBNavbar expand='lg' className='cylonNav'>
+      <MDBContainer fluid className={`justify-content-center ${toggleNavBG}`}>
+        <MDBNavbarToggler
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowNavSecond(!showNavSecond)}
+          className=""
+        >
+          <MDBIcon icon='bars' className='iconNavbar' fas />
+        </MDBNavbarToggler>
+        <MDBCollapse navbar show={showNavSecond}>
+          <MDBNavbarNav className='justify-content-center'>
+            <MDBNavbarLink onClick={() => setShowNavSecond(false)} href='#CYLONSECTION' className='navElement'>Cylons</MDBNavbarLink>
+            <MDBNavbarLink onClick={() => setShowNavSecond(false)} href='#ABOUTSECTION' className='navElement'>About</MDBNavbarLink>
+            <MDBNavbarLink onClick={() => setShowNavSecond(false)} href='#TEAMSECTION' className='navElement'>Team</MDBNavbarLink>
+            <MDBNavbarLink onClick={() => setShowNavSecond(false)} href='#FAQSECTION' className='navElement'>FAQ</MDBNavbarLink>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
     </>
   );
 }
