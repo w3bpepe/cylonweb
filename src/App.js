@@ -10,7 +10,7 @@ import Divider from './components/Divider';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App wrapper">
       <NavbarCylon />
       <HeroImage />
       <Divider />
@@ -21,7 +21,7 @@ function App() {
         <FaqTwo />  
       </div>
       <Footer />
-      </div>
+    </div>
   );
 }
 
