@@ -13,7 +13,7 @@ import {
 import team1 from "../images/50k.png"
 import team2 from "../images/klein.jpeg"
 import team3 from "../images/okayjay.png"
-import team4 from "../images/team4.png"
+import team4 from "../images/keef.png"
 
 
 
