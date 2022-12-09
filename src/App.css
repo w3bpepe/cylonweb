@@ -80,6 +80,8 @@
   margin: 0 auto;
 }
 
+
+
 .cylonNav{
   content: '';
   background-image: url("./images/triangle.svg");
@@ -152,7 +154,6 @@
 }
 
 .faq{
-  border-radius: 10px !important;
   padding: 4rem;
 }
 
@@ -191,6 +192,20 @@
   color: #D2C2C3 !important;
   background-color: #1B2021;
   font-family: "allien";
+}
+
+@media only screen and (max-width: 768px){
+
+  .lowerSection{
+    max-width: 95%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .faq{
+    padding: 0;
+  }
+  
 }
 
 .copyrightBottom{
