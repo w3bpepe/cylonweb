@@ -30,10 +30,10 @@ const responsive = {
 
         <h1 className='caroselloTitle' id='CYLONSECTION'>Cylons</h1>
         <Carousel
-        swipeable={false}
+        swipeable={true}
         draggable={false}
-        showDots={false}
-        centerMode={true}
+        showDots={true}
+        centerMode={false}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
