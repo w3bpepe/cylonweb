@@ -10,7 +10,8 @@ import Divider from './components/Divider';
 
 function App() {
   return (
-    <div className="App wrapper">
+    <div className="App">
+      <div className='wrapper'></div>
       <NavbarCylon />
       <HeroImage />
       <Divider />
