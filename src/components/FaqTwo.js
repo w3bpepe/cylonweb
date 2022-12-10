@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const data = {
     title: " ",
@@ -40,6 +42,9 @@ export default function FaqTwo() {
 
     return (
         <div className="lowerSection faq">
+            <AnimationOnScroll
+            animateIn="animate__fadeIn"
+            >
             <h2 className="faqTitle" id="FAQSECTION">FAQ</h2>
             <div className="faq-style-wrapper">
                 <Faq 
@@ -48,6 +53,7 @@ export default function FaqTwo() {
                 styles={styles}
                 />
             </div>
+            </AnimationOnScroll>
         </div>
     );
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import "animate.css/animate.min.css";
 import NavbarCylon from './components/Navbar';
 import HeroImage from './components/Hero';
 import Carosello from './components/Carosello';

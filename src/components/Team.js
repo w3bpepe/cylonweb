@@ -11,6 +11,7 @@ import {
   MDBBtn,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import team1 from "../images/50k.png"
 import team2 from "../images/klein.jpeg"
 import team3 from "../images/okayjay.png"
@@ -32,7 +33,14 @@ export default function Team() {
 
   return (
     <div className='text-center lowerSection my-5' >
-    <h1 className='aboutTitle' id='TEAMSECTION'>Cylon Team</h1>
+      <AnimationOnScroll
+      animateIn='animate__fadeIn'
+      >
+        <h1 className='aboutTitle' id='TEAMSECTION'>Cylon Team</h1>
+      </AnimationOnScroll>
+    <AnimationOnScroll
+    animateIn='animate__fadeInUp'
+    >
     <MDBRow className='row-cols-1 row-cols-md-2 row-cols-xl-4 g-4'>
       <MDBCol>
         <MDBCard className='teamCard'>
@@ -200,6 +208,7 @@ export default function Team() {
         </MDBCard>
       </MDBCol>
     </MDBRow>
+    </AnimationOnScroll>
     </div>
   );
 }

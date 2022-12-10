@@ -20,7 +20,7 @@ export default function NavbarCylon() {
   return (
     <>
       <div className='logoContainer'>
-        <img src={logo} height="80px" className='logoIMG'></img>
+          <img src={logo} height="80px" className='logoIMG'></img>
       </div>
       <MDBNavbar expand='lg' className='cylonNav'>
       <MDBContainer fluid className={`justify-content-center ${toggleNavBG}`}>

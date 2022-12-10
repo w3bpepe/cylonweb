@@ -1,5 +1,6 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import img1 from "../images/1.png"
 import img2 from "../images/2.png"
 import img3 from "../images/3.jpeg"
@@ -27,8 +28,11 @@ const responsive = {
   export default function Carosello() {
     return(
         <>
-
-        <h1 className='caroselloTitle' id='CYLONSECTION'>Cylons</h1>
+        <AnimationOnScroll
+        animateIn='animate__fadeIn'
+        >
+          <h1 className='caroselloTitle' id='CYLONSECTION'>Cylons</h1>
+        </AnimationOnScroll>
         <Carousel
         swipeable={true}
         draggable={false}
