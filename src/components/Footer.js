@@ -34,7 +34,7 @@ export default function Footer() {
           >
             <MDBIcon fab className='fa-discord' />
           </MDBBtn>
-          <div className='copyrightBottom'>© 202 2  Copyright CylonCartel.com</div>
+          <div className='copyrightBottom'>© 2022  Copyright CylonCartel.com</div>
     </MDBFooter>
   );
 }
