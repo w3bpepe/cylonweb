@@ -18,8 +18,8 @@ export default function NavbarCylon() {
   let toggleNavBG = showNavSecond ? ' solidBG' : null;
 
   return (
-    <>
-      <div className='logoContainer'>
+    <div>
+      <div className='logoContainer' >
           <img src={logo} height="80px" className='logoIMG'></img>
       </div>
       <MDBNavbar expand='lg' className='cylonNav'>
@@ -42,6 +42,6 @@ export default function NavbarCylon() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
-    </>
+    </div>
   );
 }

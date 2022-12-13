@@ -19,6 +19,9 @@
   width: 100%;
 }
 
+.landingCard{
+}
+
 .imgCarosello{
   height: 25rem;
   width: 25rem;
@@ -54,6 +57,7 @@
 .heroSottotitolo{
   text-align: center;
   font-size: 1.35rem !important;
+  color: #1B2021 !important;
 }
 
 .socialIcon{
@@ -79,8 +83,6 @@
   text-align: center;
   margin: 0 auto;
 }
-
-
 
 .cylonNav{
   content: '';
@@ -139,6 +141,7 @@
 .aboutSection{
   font-size: 1.35rem;
   color: #D2C2C3;
+  
 }
 
 .teamTitle{
@@ -178,13 +181,14 @@
 }
 
 .faq-style-wrapper .faq-body .faq-row .row-title {
-  font-size: larger;
+  font-size: 1.5rem !important;
   color: #D2C2C3 !important;
+  font-family: 'allien';
 }
 
 .faq-style-wrapper .faq-body .faq-row .row-content-text {
   padding: 2em !important;
-  font-size: medium !important;
+  font-size: 1.35rem !important;
   color: #D2C2C3 !important;
 }
 

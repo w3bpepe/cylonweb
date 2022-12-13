@@ -6,6 +6,11 @@ import img2 from "../images/2.png"
 import img3 from "../images/3.jpeg"
 import img4 from "../images/4.jpg"
 import img5 from "../images/5.jpg"
+import img6 from "../images/6.jpg"
+import img7 from "../images/7.jpg"
+import img8 from "../images/8.png"
+import img9 from "../images/9.jpg"
+import img10 from "../images/10.jpg"
 
 const responsive = {
     desktop: {
@@ -57,6 +62,11 @@ const responsive = {
             <div className='imgCarosello' style={{backgroundImage: `url(${img3})`}}></div>
             <div className='imgCarosello' style={{backgroundImage: `url(${img4})`}}></div>
             <div className='imgCarosello' style={{backgroundImage: `url(${img5})`}}></div>
+            <div className='imgCarosello' style={{backgroundImage: `url(${img6})`}}></div>
+            <div className='imgCarosello' style={{backgroundImage: `url(${img7})`}}></div>
+            <div className='imgCarosello' style={{backgroundImage: `url(${img8})`}}></div>
+            <div className='imgCarosello' style={{backgroundImage: `url(${img9})`}}></div>
+            <div className='imgCarosello' style={{backgroundImage: `url(${img10})`}}></div>
 
         </Carousel>
         </>
