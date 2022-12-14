@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
+import {
+  MDBBtn,
+  MDBCollapse,
+  MDBIcon
+} from 'mdb-react-ui-kit';
 
 export default function About() {
+  const [showAbout, setShowAbout] = useState(false);
+
+  const toggleShowAbout = () => setShowAbout(!showAbout);
 
   return (
     <div className='my-5 text-center lowerSection'>
@@ -13,9 +20,8 @@ export default function About() {
           <h1 className='aboutTitle' id='ABOUTSECTION'>About The Cartel</h1>
         </AnimationOnScroll>
       </div>
-        <AnimationOnScroll
-        animateIn='animate__fadeInUp'
-        >
+      <MDBCollapse show={showAbout}>
+
           <p className='aboutSection'>
           The Cylon Cartel, an astounding collection of <strong>6000 Cylon’s</strong> pieced together with unique hand-drawn individual traits by a mysterious artist, that you may or may not get to know? 
           <br/>
@@ -31,7 +37,21 @@ export default function About() {
           <br/>
           Our aim is to give a different perspective as Founders of this <strong>fully transparent</strong> NFT project, untried ideas to create diverse experiences for the holders of the Cylon Cartel whilst trying to bring <strong>true value</strong> to them everyday.
           </p>
-        </AnimationOnScroll>
+      </MDBCollapse>
+      <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1 socialIcon aboutIcon'
+            role='button'
+            onClick={toggleShowAbout}
+            >
+              {showAbout 
+              ? <MDBIcon fas icon="angle-up" className='socialIcon aboutIcon' />
+              : <MDBIcon fas icon="angle-down" className='socialIcon aboutIcon' />
+              }
+        </MDBBtn>
     </div>
   );
 }
