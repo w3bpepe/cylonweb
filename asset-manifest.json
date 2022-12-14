@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cylonweb/static/css/main.bac0460d.css",
-    "main.js": "/cylonweb/static/js/main.afe8c810.js",
+    "main.css": "/cylonweb/static/css/main.68ecae51.css",
+    "main.js": "/cylonweb/static/js/main.ffd16b0b.js",
     "static/js/787.88d04926.chunk.js": "/cylonweb/static/js/787.88d04926.chunk.js",
     "static/media/invasion.png": "/cylonweb/static/media/invasion.ae681472f1e472e25b5a.png",
     "static/media/3.jpeg": "/cylonweb/static/media/3.2ebdead94bd30d244751.jpeg",
@@ -33,12 +33,12 @@
     "static/media/fa-v4compatibility.woff2": "/cylonweb/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/cylonweb/index.html",
     "static/media/triangle.svg": "/cylonweb/static/media/triangle.bf85e0db4b967d300180.svg",
-    "main.bac0460d.css.map": "/cylonweb/static/css/main.bac0460d.css.map",
-    "main.afe8c810.js.map": "/cylonweb/static/js/main.afe8c810.js.map",
+    "main.68ecae51.css.map": "/cylonweb/static/css/main.68ecae51.css.map",
+    "main.ffd16b0b.js.map": "/cylonweb/static/js/main.ffd16b0b.js.map",
     "787.88d04926.chunk.js.map": "/cylonweb/static/js/787.88d04926.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac0460d.css",
-    "static/js/main.afe8c810.js"
+    "static/css/main.68ecae51.css",
+    "static/js/main.ffd16b0b.js"
   ]
 }
