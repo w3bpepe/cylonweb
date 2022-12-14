@@ -38,6 +38,9 @@ export default function About() {
           Our aim is to give a different perspective as Founders of this <strong>fully transparent</strong> NFT project, untried ideas to create diverse experiences for the holders of the Cylon Cartel whilst trying to bring <strong>true value</strong> to them everyday.
           </p>
       </MDBCollapse>
+      <AnimationOnScroll
+        animateIn='animate__fadeIn'
+      >
       <MDBBtn
             rippleColor="dark"
             color='link'
@@ -52,6 +55,8 @@ export default function About() {
               : <MDBIcon fas icon="angle-down" className='socialIcon aboutIcon' />
               }
         </MDBBtn>
+      </AnimationOnScroll>
+
     </div>
   );
 }
