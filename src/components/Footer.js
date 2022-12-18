@@ -17,7 +17,8 @@ export default function Footer() {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://twitter.com/CylonCartel'
+            target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-twitter' />
@@ -29,7 +30,8 @@ export default function Footer() {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://discord.gg/YPp24fQFz7'
+            target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-discord' />

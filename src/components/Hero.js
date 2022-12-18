@@ -25,7 +25,8 @@ export default function HeroImage() {
             floating
             size="lg"
             className='text-dark m-1 socialIcon'
-            href='#!'
+            href='https://twitter.com/CylonCartel'
+            target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-twitter socialIcon' />
@@ -37,7 +38,8 @@ export default function HeroImage() {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://discord.gg/YPp24fQFz7'
+            target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-discord socialIcon' />
