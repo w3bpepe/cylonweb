@@ -16,6 +16,8 @@ import team1 from "../images/50k.png"
 import team2 from "../images/klein.jpeg"
 import team3 from "../images/okayjay.png"
 import team4 from "../images/keef.png"
+import team5 from "../images/akilo.jpeg"
+import team6 from "../images/helay.jpg"
 
 
 
@@ -24,11 +26,15 @@ export default function Team() {
   const [showKlein, setShowKlein] = useState(false);
   const [showJay, setShowJay] = useState(false);
   const [showKeef, setShowKeef] = useState(false);
+  const [showAkilo, setShowAkilo] = useState(false);
+  const [showHelay, setShowHelay] = useState(false);
 
   const toggleShow50k = () => setShow50k(!show50k);
   const toggleShowKlein = () => setShowKlein(!showKlein);
   const toggleShowJay = () => setShowJay(!showJay);
   const toggleShowKeef = () => setShowKeef(!showKeef);
+  const toggleShowAkilo = () => setShowAkilo(!showAkilo);
+  const toggleShowHelay = () => setShowHelay(!showHelay);
 
 
   return (
@@ -41,7 +47,7 @@ export default function Team() {
     <AnimationOnScroll
     animateIn='animate__fadeInUp'
     >
-    <MDBRow className='row-cols-1 row-cols-md-2 row-cols-xl-4 g-4'>
+    <MDBRow className='row-cols-1 row-cols-md-2 row-cols-xl-3 g-4'>
       <MDBCol>
         <MDBCard className='teamCard'>
           <MDBCardImage
@@ -239,6 +245,89 @@ export default function Team() {
             size="lg"
             className='text-dark m-1 socialIcon'
             href='https://twitter.com/Benl1723'
+            target='_blank'
+            role='button'
+          >
+            <MDBIcon fab className='fa-twitter socialIcon' />
+          </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+      <MDBCol>
+        <MDBCard className='teamCard'>
+          <MDBCardImage
+            src={team5}
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle className='teamTitle'>Akilo</MDBCardTitle>
+            <MDBCollapse show={showAkilo}>
+            My name is Akilo Joseph, I'm a digital Artist 28 and from Nigeria.
+            <br/>
+            <br/>
+            Art has always been a part of my life and I got into the digital aspect of it quite early, making characters (sprite sheets) for games on the Mugen engine and a few stages and skins for classics like UT99, Quake as a hobby.
+            <br/>
+            I got into cryptos fully during the Steemit era and I've been taking part and observing the space since then. The rise of NFTs caught my attention about 3 years ago, one day I was asked if I could design one, I said yes and I've been doing so ever since.
+            <br/>
+            <br/>
+            In my free time I enjoy reading, traveling and spending time with family.I see the Cylon Cartel community as a second family because we have created something special and it’s truly awesome to be counted among such a wonderful community
+            </MDBCollapse>
+            <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1 socialIcon'
+            role='button'
+            onClick={toggleShowAkilo}
+            >
+              <MDBIcon fas icon="info-circle" className='socialIcon' />
+            </MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+      <MDBCol>
+        <MDBCard className='teamCard'>
+          <MDBCardImage
+            src={team6}
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle className='teamTitle'>Helay</MDBCardTitle>
+            <MDBCollapse show={showHelay}>
+              Hi!
+              I'm Helay, Developer and Crypto enthusiast form Italy.
+              <br/>
+              <br/>
+              I've been coding for half a decade and into crypto 2+ years!
+             <br/>
+              My passion for crypto is dictated to my love for freedom and transparency, and I felt like I had to join this with my passion for coding, learning to develop on the ethereum blockchain.
+              <br/>
+              <br/>
+              I'm also a huge AC Milan fan, I love to make digital art and 3d models in my free time, as well as partecipating in the web3 communities.
+              <br/>
+              I'm glad to be part of the Cylon's family and I'm ready to build the future of this project with my fellow team members.
+            </MDBCollapse>
+            <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1 socialIcon'
+            role='button'
+            onClick={toggleShowHelay}
+            >
+              <MDBIcon fas icon="info-circle" className='socialIcon' />
+            </MDBBtn>
+            <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1 socialIcon'
+            href='https://twitter.com/50isme'
             target='_blank'
             role='button'
           >
