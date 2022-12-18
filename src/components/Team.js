@@ -327,7 +327,7 @@ export default function Team() {
             floating
             size="lg"
             className='text-dark m-1 socialIcon'
-            href='https://twitter.com/50isme'
+            href='https://twitter.com/helaydoteth'
             target='_blank'
             role='button'
           >

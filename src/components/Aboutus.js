@@ -23,7 +23,7 @@ export default function About() {
       <MDBCollapse show={showAbout}>
 
           <p className='aboutSection'>
-          The Cylon Cartel, an astounding collection of <strong>6000 Cylon’s</strong> pieced together with unique hand-drawn individual traits by a mysterious artist, that you may or may not get to know? 
+          The Cylon Cartel, an astounding collection of <strong>6000 Cylon’s</strong> pieced together with unique hand-drawn individual traits by our talented artist, Akilo!
           <br/>
           <br/>
           The Cartel Team vision in this space come hand in hand with both <strong>trust and honesty</strong>, we aim to be original and as authentic as we possibly can be whilst being true to our selves and the Cartel Community.
