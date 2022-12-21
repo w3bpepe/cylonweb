@@ -116,7 +116,7 @@ export default function Team() {
               <br/>
               I’ve studied business, economics and media at a high level and also have qualifications in I.T.
               <br/>
-              Other than web3, I'm a huge Manchester United supporter, I love going to concerts and festivals around Europe and I feel like health is wealth, gym is a big factor in keeping me level haeded
+              Other than web3, I'm a huge Manchester United supporter, I love going to concerts and festivals around Europe. I am also big into my fitness.  Health is wealth, gym is a big factor in keeping me level headed.
               <br/>
               Thank you for being part of the Cylon family, let’s all create something special !
             </MDBCollapse>
