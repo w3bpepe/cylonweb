@@ -24,18 +24,18 @@ export default function Footer() {
             <MDBIcon fab className='fa-twitter' />
           </MDBBtn>
 
-          <MDBBtn
+          {/* <MDBBtn
             rippleColor="dark"
             color='link'
             floating
             size="lg"
             className='text-dark m-1'
-            href='https://discord.gg/YPp24fQFz7'
+            href=''
             target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-discord' />
-          </MDBBtn>
+          </MDBBtn> */}
           <div className='copyrightBottom'>© 2022  Copyright CylonCartel.com</div>
     </MDBFooter>
   );

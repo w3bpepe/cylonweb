@@ -32,18 +32,18 @@ export default function HeroImage() {
             <MDBIcon fab className='fa-twitter socialIcon' />
           </MDBBtn>
 
-          <MDBBtn
+          {/* <MDBBtn
             rippleColor="dark"
             color='link'
             floating
             size="lg"
             className='text-dark m-1'
-            href='https://discord.gg/YPp24fQFz7'
+            href=''
             target='_blank'
             role='button'
           >
             <MDBIcon fab className='fa-discord socialIcon' />
-          </MDBBtn>
+          </MDBBtn> */}
 
         </section>
 
