@@ -15,7 +15,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import team1 from "../images/50k.png"
 import team2 from "../images/klein.jpeg"
 import team3 from "../images/okayjay.png"
-import team4 from "../images/keef.png"
+import team4 from "../images/keef.jpg"
 import team5 from "../images/akilo.jpeg"
 import team6 from "../images/helay.jpg"
 
